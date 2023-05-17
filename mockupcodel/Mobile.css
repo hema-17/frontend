@@ -1,0 +1,417 @@
+@media screen and (max-width: 768px) {
+
+    /* .header{
+        display: flex;
+        flex-direction: row;
+        width: 320px;
+
+    }
+    .wraper{
+        width: 173px;
+        height: 31px;
+        flex-basis:50% ;
+    }
+    .header-quote{
+        font-size: 16px;
+        font-style: italic;
+        flex-basis:100% ;
+        flex-direction: column;
+    }
+    .phone{
+        -webkit-text-fill-color: white;
+        flex-basis:50% ;
+    }
+    .nav-list{
+        width: 320px;
+    } */
+    .banner {
+        height: auto;
+        /* width: 100%; */
+        width: 332px;
+    }
+
+    .banner-content h1 {
+        font-size: 19px;
+        line-height: 31px;
+        max-width: 212px;
+    }
+    .banner span {
+        font-size: 19px;
+    }
+
+    .banner-content p {
+        font-size: 15px;
+        line-height: 22px;
+        padding-bottom: 26px;
+        max-width: 254px;
+    }
+
+    /* overview section*/
+    .overview-container {
+        width: 100%;
+        max-width: 320px;
+        margin-left: 60px;
+    }
+
+    .overview-container span {
+        font-size: 14px;
+        font-style: bold;
+
+    }
+
+    .overview-container h2 {
+        font-size: 20px;
+        line-height: 32px;
+
+    }
+
+    .overview-container p {
+        font-size: 14px;
+        line-height: 22px;
+    }
+
+    /* Why Are We Different Section */
+
+    .why-are-we-different {
+        width: 100%;
+        width: 452px;
+        flex-wrap: wrap;
+    }
+
+    .why-are-we-different .different-container-image img {
+        width: 400px;
+        padding-left:25px ;
+    }
+
+    .different-container-image {
+        padding: 50px 0 0px 0;
+    }
+
+    .different-content {
+        padding: 0px 0px 32px 9px;
+
+    }
+
+    .why-are-we-different .different-content p {
+        font-size: 14px;
+        line-height: 19px;
+    }
+
+    .why-are-we-different .different-content h2 {
+        font-size: 20px;
+        line-height: 32px;
+    }
+
+    .different-content li {
+        font-size: 20px;
+        line-height: 22px;
+    }
+    .icon-content{
+       width: 353px; 
+    }
+    /* What we cover Seection*/
+    .what-we-cover-container .content {
+        margin-left: 58px;
+        width: 302px;
+    }
+
+    .what-we-cover-container span {
+        font-size: 14px;
+    }
+
+    .what-we-cover-container h2 {
+        font-size: 20px;
+        line-height: 32px;
+    }
+
+    .what-we-cover-container p {
+        font-size: 14px;
+        line-height: 22px;
+        padding-top: 0px;
+    }
+
+    .structural-warranties {
+        flex-wrap: wrap;
+        flex-direction: column;
+        gap: 14px;
+        /* flex-basis: 100%; */
+    }
+    .workmanship {
+        width: 436px;
+    }
+    .structural-warranties .workmanship-text h6{
+        font-size: 18px;
+    }
+    .structural-warranties .workmanship-text p{
+        font-size: 14px;
+    }
+    .workmanship-text{
+        padding: 0px;
+        width: 261px;
+        padding-left: 83px;
+    }
+
+
+
+
+    /* coverage details*/
+    .coverage-details .content span{
+        font-size: 14px;
+        margin-left: 101px;
+    }
+    .coverage-details .content h2{
+        font-size: 20px;
+        width: 380px;
+        padding-left: 24px;
+    }
+
+    .home-content {
+        flex-basis: 100%;
+        flex-direction: column;
+    }
+    .home-content-list{
+        display: flex;
+    }
+    .home-container .home-content-list img{
+        display: none;
+    }
+
+    .home-container .workmanship-list h2{
+        font-size: 14px;
+    }
+    .home-container .workmanship-list {
+        font-size: 14px;
+        }
+
+    .home-text p {
+        display: none;
+    }
+
+    .home-img {
+        width: 320px;
+        height: 172px;
+    }
+
+    /* explore Section*/
+    .explore-wrapper {
+        width: 331px;
+        height: 317px;
+    }
+
+    .explore-content {
+        margin-left: 2px;
+    }
+
+    .explore-content h2 {
+        font-size: 14px;
+    }
+
+    .explore-content h3 {
+        font-size: 20px;
+    }
+
+    .explore-content p {
+        font-size: 14px;
+        width: 283px;
+        padding-left: 20px;
+    }
+
+    .explore-plan {
+        width: 304px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .plan-A {
+        width: 320px;
+        border-bottom: 5px solid rgb(204, 204, 204);
+    }
+
+    .plan-B {
+        width: 320px;
+        border-right: none;
+    }
+
+    .plan-title h2 {
+        font-size: 30px;
+    }
+
+    .title-style {
+        font-size: 14px;
+    }
+
+    .plan-list {
+        font-size: 9px;
+    }
+
+    /* standard coverage section*/
+    .standard-coverage {
+        padding: 228px 0px 0px 0px;
+    }
+
+    .standard-coverage-title h2 {
+        width: 413px;
+        padding-left: 0px;
+        font-size: 20px;
+        line-height: 32px;
+    }
+
+    .standard-coverage-parts {
+        overflow-x: auto;
+        width: 440px;
+    }
+
+    .standard-coverage-parts .flex-box {
+        min-width: 200px;
+    }
+    .flex-box p{
+        width: 197px;
+    }
+
+    /* waranty pricing section*/
+    .warranty h2 {
+        font-size: 14px;
+        width: 313px;
+    }
+
+    .warranty h3 {
+        font-size: 20px;
+        width: 341px;
+        font-weight: bold;
+    }
+
+    .warranty p {
+        font-size: 14px;
+        width: 256px;
+        padding-left: 46px;
+    }
+
+    /* .warranty .quote{
+    padding-left: 100px;
+     }
+.warranty .quote::before{
+    margin-left: 90px;
+    margin-top: 6px;
+}
+.warranty .quote::after{
+    margin-left: 90px;
+    margin-bottom: 20px; 
+
+}*/
+
+/* Buildersecure seciton*/
+.builderssecure {
+    flex-wrap: wrap;
+    width: 452px;
+    height: 780px;
+}
+.builderssecure h4{
+font-size:14px ;
+line-height:19px ;
+}
+.builderssecure h2{
+    font-size:20px ;
+    line-height:32px ;
+}
+.builderssecure p{
+    font-size:14px ;
+    line-height: 22px;
+    width: 383px;
+}
+
+.builderssecure img {
+    max-width: 429px;
+    margin-left: 12px;
+}
+/* FAQ Section*/
+.faq h5{
+    font-size: 14px;
+    width: 444px;
+}
+.faq h2{
+    font-size: 20px;
+    width: 275px;
+    margin-left: 94px;
+}
+.faq-content{
+    margin-left:36px;
+}
+.faq-content h2{
+    font-size: 15px;
+    margin-left:0px;
+}
+.faq-content p{
+    font-size: 15px;
+    line-height: 22px;
+    width: 260px;
+}
+.faq-content hr{
+    width: 304px;
+}
+.add{
+    padding-left: 21px;
+}
+.plus{
+    padding-left: 183px;
+}
+.minus{
+    padding-left: 149px;
+}
+/* Form Section*/
+.form{
+    width: 452px;
+}
+.form h1{
+    font-size: 22px;
+    line-height: 32px;
+}
+.form p{
+    font-size: 14px;
+    line-height: 22px;
+    width: 290px;
+    margin-left: 36px;
+}
+.grid-container{
+    flex-wrap: wrap;
+    width: 300px;
+}
+.grid-container .txt{
+    width: 200px;
+    height: 30px;
+}
+.form .quote{
+    margin-right: 225px;
+} 
+.form-content{
+    padding-bottom: 13px;
+}
+/* spirit-of-success*/
+.spirit-of-success img{
+    margin-left:81px;
+}
+.spirit-of-success h1{
+    font-size: 20px;
+    line-height: 25px;
+  width: 426px;
+}
+
+.spirit-of-success p{
+    font-size: 14px;
+    line-height: 22px;
+    width: 301px;
+    padding-left: 56px
+
+}
+.spirit-of-success .boxarrow{
+    margin-left: 0px;
+}
+.header,
+.nav-list,
+.footer-section{
+    display: none;
+}
+
+    
+}
+
+
