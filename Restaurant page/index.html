@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Restaurant</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="box">
+        
+            <form onsubmit="handleSubmit(event)">
+                <h1>Login</h1>
+                <div class="username">
+                    <input type="text" placeholder="Enter Username" id="username">
+                    <i class="far fa-envelope"></i>
+                </div>
+                <div class="password">
+                    <input type="text" placeholder="Enter password" id="password">
+                    <i class="fas fa-lock-open"></i>
+                </div>
+                <button id="btn" type="submit"> Login </button>
+                
+            </form>
+        </div>
+    </div>
+    <script>
+        function handleSubmit(event) {
+            event.preventDefault();
+    let username = document.getElementById('username').value;
+    let password = document.getElementById('password').value;
+    if(username ==='hema' && password ==='123')
+    {
+        alert("success");
+        window.location.href = "/homepage.html";
+    }
+    else{
+        alert('login failed');
+    }
+}
+
+    </script>
+</body>
+
+</html>

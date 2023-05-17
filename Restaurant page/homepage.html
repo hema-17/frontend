@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+    <title>Home Page</title>
+</head>
+<style type="text/css">
+	body{
+		background-image: url("Images/cup-coffee-black-background.webp");
+	 background-size: cover;
+	 background-position: center;
+	}
+	
+	  
+</style>
+<body> 
+	<div class="container">
+    <div class="nav-bar">
+		<img src="./Images/coffeelogo.png">
+    
+	  
+    <ul class="menu">
+       <li><a href="http://127.0.0.1:5500/Coldbeveragespage.html">Cold beverages</a></li>
+        <li><a href="http://127.0.0.1:5500/Hotbeverages.html">Hot beverages </a></li>
+        <li><a href="#">Snacks</a></li>
+        <li><a href="#">Coffee stories</a></li>
+        <li><a href="#">contact</a></li>
+        <li><a href="http://127.0.0.1:5500/About.html">About</a></li>
+    </ul>
+  
+</div>
+<div class="home">
+<h2 class="title-1"> Good <span>Coffee</span> will always<br>Find the audience</h2>
+<p>we provide a variety of uniques and best coffees</p>
+<button type="button" onclick="gotoLink(this)" value="http://127.0.0.1:5500/cartpage.html">Goto Cart</button>
+
+</div>
+</div>
+<script >
+	function gotoLink(link){
+		console.log(link.value);
+		window.open(link.value)
+	}
+</script>
+</body>
+</html>

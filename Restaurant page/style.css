@@ -1,0 +1,308 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap');
+
+
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .box{
+    border-radius: 20px;
+    width: 400px;
+    padding: 30px;
+    border: 6px solid #ff45004f;
+    background-color: rgba(0,0,0,0);
+    box-shadow: 1px 1px 2px rgba(255, 255, 0, 0.055);
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 170px;
+    margin-left: 558px;
+}
+.box h1{
+    color: white;
+    text-transform: uppercase;
+    font-weight: 700;
+   padding-left: 100px;
+}
+.username,.password{
+    position: relative;
+}
+.fa-envelope,.fa-lock-open{
+    position: absolute;
+    left: 70px;
+    top: 20px;
+    color: aliceblue;
+}
+.box input[type="text"],
+.box input[type="password"]
+{
+    font-size: 20px;
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 3px solid #ff5e007a;
+    padding: 14px 10px;
+    width: 220px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: all .2s ease-in;
+}
+.wrapper{
+   display: flex;
+   height: 100vh;
+   align-items: center;
+   justify-content: center;
+   background:url("./Images/coffeepageloginbackground.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#btn{
+    border: 0;
+    display: block;
+    background: none;
+    margin: 20px center;
+    margin-left: 100px;
+    text-align: center;
+    border: 3px solid;
+    padding: 14px 35px;
+    outline: none;
+    font-size: 18px;
+    color: aliceblue;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: all .2s ease-in-out;
+
+}
+#btn:hover{
+    background-color: rgb(192, 101, 17);
+}
+
+
+/*  HomePage Section  */
+
+
+.container{
+    height: 100vh;
+    width: 100%;
+    /* background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)); */
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url("Images/cup-coffee-black-background.webp");
+ background-size: cover;
+ background-position: center;
+}
+.nav-bar .title{
+ color:crimson;
+ font-size: 70px ;
+ cursor: pointer;
+  }
+.nav-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 80px;
+    
+}
+span{
+        color: crimson;
+    }
+    .nav-bar p{
+        position: absolute;
+        margin-top: 90px;
+        margin-left: 50px;
+        color: #fff;
+        font-size: 20px;
+        font-weight: 500;
+    }
+    .nav-bar img{
+        width: 100%;
+        max-width: 100px;
+    }
+.menu li {
+            list-style: none;
+            display: inline-block;
+}
+.menu li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    margin-left: 78px;
+    font-weight: 600;
+    transition: .4s ease;
+    
+}
+.menu li a:hover{
+    color: crimson;
+    padding: 5px 10px;
+    border:2px solid #fff ;
+}
+.home{
+    height: 400px;
+    padding: 70px;
+}
+.title-1{
+    font-size: 56px;
+    color: lemonchiffon;
+    font-weight: 600;
+
+}
+.home p{
+    color: lemonchiffon;
+    font-size: 20px;
+    padding-top: 70px;
+
+}
+  .home button{
+    height: 40px;
+    color: #fff;
+    background-color: crimson;
+    padding: 5px 30px;
+    margin-top: 58px;
+    border: none;
+    border-radius: 5px;
+    transition: .4s ease;
+    cursor: pointer;
+
+  }
+  .home button:hover{
+    background:none;
+    border: 2px solid crimson;
+  }
+
+  /* coldBeverage*/
+
+  .cold-beverages{
+    background-image: url("./Images/coldbeverageBackground.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .cold-beverages .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(30rem,1fr));
+    gap: 1.5rem;
+  }
+  .cold-beverages .box-container .cold-beverages-box{
+    padding: 30px;
+    text-align: center;
+    border: var(--border);
+  }
+  .cold-beverages .box-container .cold-beverages-box img{
+    height: 10rem;
+  }
+  .cold-beverages .box-container .cold-beverages-box h3{
+    color: rgb(173, 198, 245);;
+    font-size: 2rem;
+    padding: 11px;
+  }
+  .cold-beverages .box-container .cold-beverages-box .price{
+    color: #fff;
+    font-size: 30px;
+    padding-bottom: 22px;
+  }
+  .cold-beverages  .heading span{
+    color: rgb(146, 167, 206);
+  }
+  .heading{
+    font-size: 40px;
+    padding-left: 500px;
+    text-transform:uppercase;
+    padding-top: 20px;
+    color: burlywood;
+  }
+ .cold-beverages-btn{
+    border: 3px solid black;
+    background-color: blanchedalmond;
+    padding: 9px;
+    text-decoration: none;
+    border-radius: 8px;
+    font-size: 20px;
+    color: black;
+ }
+
+ /* about page */
+
+ .about{
+    background-color:black;
+    height: 730vh;
+    }
+  .about .heading{
+    padding-left: 550px;
+  }
+    .about-title h3{
+      color: #fff;
+      font-size: 50px;
+      padding-top: 30px;
+      padding-bottom: 85px;
+    }
+    .commitment-row{
+        display: flex;
+        width: 100%;
+        color: #fff;
+        gap: 3%;
+        
+    } 
+   .commitment-image{
+      max-width: 658px;
+      height: 438px;
+      float: left;
+    }
+  .commitment-content h4{
+    color:crimson;
+    font-size: 40px;
+    padding-top: 73px;
+    line-height: 94px;
+  }
+  .commitment-content p{
+    font-size: 20px;
+    max-width: 657px;
+    font-family:'Open Sans', sans-serif;
+   
+  }.row-2{
+    display: flex;
+    gap: 4%;
+    flex-wrap: wrap;
+
+  }
+.about-hapiness{
+  padding-top:146px ;
+ }
+ .hapiness{
+  padding-top:220px ;
+ }
+h5{
+  color:crimson;
+  font-size: 30px;
+  padding-bottom: 5px;
+  
+}
+p{
+  color: #fff;
+  font-family:'Open Sans', sans-serif;
+  font-size: 20px;
+  max-width: 417px;
+  padding-top: 10px;
+ 
+}
+.community{
+padding-top: 223px;
+padding-left: 50px;
+}
+.innovation{
+  padding-left: 400px;
+}
+
+    /* Hot Beverages*/
+    .cold-beverages .hotbeverage-heading{
+      color: red;
+      font-size: 40px;
+    padding-left: 500px;
+    text-transform:uppercase;
+    padding-top: 20px;  
+    }
+    .hotbeverages-title{
+      color: brown;
+    }
